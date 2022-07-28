@@ -3,4 +3,39 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+
+.head {
+    background: black;
+    opacity: 0.8;
+}
+
+.head2{
+    background-color: rgb(47, 47, 49);
+    opacity: 0.9; 
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size:115%;
+    color: white;
+}
+
+.head3{
+    align-items: flex-end;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.centerpic{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.piclayout{
+    display: flex;
+    justify-content: flex-start;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
